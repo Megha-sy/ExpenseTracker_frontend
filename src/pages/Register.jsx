@@ -11,7 +11,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/api/users/register", {
+      await axios.post("https://expensetracker-backend-gcnn.onrender.com/api/users/register", {
         name,
         email,
         password,

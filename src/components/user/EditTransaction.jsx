@@ -31,7 +31,7 @@ const EditTransaction = () => {
           screenshot: null,
         });
         if (data.screenshot) {
-          setPreview(`http://localhost:5000/uploads/${data.screenshot}`);
+          setPreview(`https://expensetracker-backend-gcnn.onrender.com/uploads/${data.screenshot}`);
         }
       } catch (error) {
         console.error("Error fetching transaction:", error);
