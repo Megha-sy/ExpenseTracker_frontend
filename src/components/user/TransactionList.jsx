@@ -124,7 +124,7 @@ const TransactionList = () => {
                     <td>
                       {t.screenshot ? (
                         <img
-                          src={`https://expensetracker-backend-gcnn.onrender.com/uploads/${t.screenshot}`}
+                          src={`https://expensetracker-backend-1-urxk.onrender.com/uploads/${t.screenshot}`}
                           alt="Transaction Screenshot"
                           className="w-12 h-12 object-cover rounded-lg border"
                         />

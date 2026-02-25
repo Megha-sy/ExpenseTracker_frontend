@@ -13,7 +13,7 @@ const Login = () => {
     setError("");
 
     try {
-      const res = await axios.post("https://expensetracker-backend-gcnn.onrender.com/api/users/login", {
+      const res = await axios.post("https://expensetracker-backend-1-urxk.onrender.com/api/users/login", {
         email,
         password,
       });
